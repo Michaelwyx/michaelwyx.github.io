@@ -62,16 +62,11 @@ a:hover {
   margin-top: 8px;
 }
 
-.bio-links a,
-.bio-link-pending {
+.bio-links a {
   display: inline-block;
   margin-right: 16px;
   font-size: 15px;
   white-space: nowrap;
-}
-
-.bio-link-pending {
-  color: #888;
 }
 
 .bio-links i {
@@ -84,12 +79,17 @@ a:hover {
   text-align: center;
 }
 
+.bio-table td.bio-photo {
+  vertical-align: bottom;
+  padding-bottom: 60px;
+}
+
 .bio-photo img {
-  width: 180px;
+  width: 190px;
   height: auto;
   border-radius: 0;
   border: 2px solid #ddd;
-  transform: translateX(8px);
+  transform: translateX(4px);
 }
 
 /* ===== Section Headings ===== */
@@ -320,6 +320,11 @@ footer {
     text-align: center;
     margin-bottom: 16px;
     order: -1;
+  }
+
+  .bio-table td.bio-photo {
+    vertical-align: top;
+    padding-bottom: 10px;
   }
 
   .bio-photo img {
