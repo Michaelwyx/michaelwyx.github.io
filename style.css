@@ -89,6 +89,7 @@ a:hover {
   height: auto;
   border-radius: 0;
   border: 2px solid #ddd;
+  transform: translateX(8px);
 }
 
 /* ===== Section Headings ===== */
@@ -319,6 +320,10 @@ footer {
     text-align: center;
     margin-bottom: 16px;
     order: -1;
+  }
+
+  .bio-photo img {
+    transform: none;
   }
 
   .bio-text {
