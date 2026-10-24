@@ -42,8 +42,8 @@ a:hover {
   padding: 10px;
 }
 
-.bio-text {
-  padding-right: 30px;
+.bio-table td.bio-text {
+  padding-right: 18px;
 }
 
 .bio-text h1 {
@@ -326,8 +326,8 @@ footer {
     transform: none;
   }
 
-  .bio-text {
-    padding-right: 0;
+  .bio-table td.bio-text {
+    padding-right: 10px;
   }
 
   .pub-entry {
