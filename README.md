@@ -34,5 +34,6 @@ public site identifier, not a credential.
    `gh api repos/Michaelwyx/michaelwyx.github.io/pages/builds/latest`, and
    verify the live URL. GitHub Pages deployment is asynchronous.
 
-The gallery and visitor map are separate future decisions. Adding or publishing
-either requires an explicit request and real content/data.
+The gallery and visitor map are separate future decisions. They are currently
+unpublished by user choice. If asked to publish either, confirm which sample
+content should remain and distinguish it from real photos or visitor data.
