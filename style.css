@@ -1,4 +1,20 @@
 /* ===== Base Reset & Typography ===== */
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url('fonts/SourceSans3-Latin.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url('fonts/SourceSans3-Latin-Italic.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 400 900;
+  font-display: swap;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +22,7 @@
 }
 
 body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Source Sans 3', Arial, sans-serif;
   font-size: 16px;
   line-height: 1.6;
   color: #333;
