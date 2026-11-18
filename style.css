@@ -155,19 +155,27 @@ h2 {
 .pub-title {
   font-size: 16px;
   font-weight: bold;
-  color: #1772d0;
+  color: #222;
   display: block;
   margin-bottom: 4px;
+}
+
+.pub-title:hover {
+  color: #222;
 }
 
 .pub-authors {
   font-size: 14px;
   margin-bottom: 4px;
-  color: #555;
+  color: #1772d0;
 }
 
 .pub-authors a {
-  color: #555;
+  color: #1772d0;
+}
+
+.pub-authors strong {
+  color: #222;
 }
 
 .pub-authors a:hover {
