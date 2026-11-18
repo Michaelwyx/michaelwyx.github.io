@@ -163,19 +163,19 @@ h2 {
 .pub-authors {
   font-size: 14px;
   margin-bottom: 4px;
-  color: #555;
+  color: #222;
 }
 
 .pub-authors a {
-  color: #555;
-}
-
-.pub-authors strong {
-  color: #1772d0;
+  color: #222;
 }
 
 .pub-authors a:hover {
-  color: #f09228;
+  color: #222;
+}
+
+.pub-authors strong {
+  font-weight: 900;
 }
 
 .pub-venue {
